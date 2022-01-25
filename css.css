@@ -1,0 +1,31 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.big-circle{
+  width: 100vw;
+  height: 100vh;
+
+  background-color: lightcoral;
+/*   background: linear-gradient(10deg, lightcoral, aqua); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-circle{
+  display: inline;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background: linear-gradient(150deg, lightcoral, aqua);
+}
